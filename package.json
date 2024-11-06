@@ -1,0 +1,14 @@
+{
+  "name": "xxxx",
+  "description": "xxxx",
+  "version": "0.9.8",
+  "license": "xxxx",
+  "scripts": {
+    "start": "cross-env  nx run xxx:serve:default --skipNxCache=true",
+    "test": "nx run xx:test",
+    "e2e:quick": "cross-env nx run xxx-e2e:e2e-chromium",
+    "clean": "nx reset; rimraf dist coverage .nyc_output .angular tmp .nx test-results",
+    "prettier": "prettier --write"
+  },
+  "private": true
+}
